@@ -5,7 +5,7 @@ var url = require('url');
 var fs = require('fs');
 
 var sendErrorResponse = (res, message) => {
-  res.statusCode = 500;
+  res.statusCode = 400;
   jsonResponse(res, {
     'status': 'error',
     'message': message,
