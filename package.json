@@ -1,0 +1,14 @@
+{
+  "name": "rss2json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kristof Dreier <kontakt@kristofdreier.de>",
+  "license": "MIT",
+  "dependencies": {
+    "feedme": "^0.3.2"
+  }
+}
